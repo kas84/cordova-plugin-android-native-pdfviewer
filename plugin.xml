@@ -18,7 +18,7 @@
         <config-file target="app/src/main/AndroidManifest.xml" parent="/manifest/application">
             <activity android:name="xyz.guutong.androidpdfviewer.PdfViewActivity" android:theme="@style/AppTheme"/>
         </config-file>
-        <source-file src="src/android/pdfviewer-library.aar" target-dir="libs"/>
+        <lib-file src="src/android/pdfviewer-library.aar"/>
         <framework src="src/android/AndroidNativePDFViewer.gradle" custom="true" type="gradleReference" />
     </platform>
 </plugin>
