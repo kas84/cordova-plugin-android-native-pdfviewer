@@ -10,7 +10,7 @@
         </feature>
         </config-file>
         <source-file src="src/android/AndroidNativePdfViewer.java" target-dir="src/xyz/guutong/androidnativepdfviewer" />
-         <config-file parent="/*" target="app/src/main/AndroidManifest.xml">
+        <config-file parent="/*" target="AndroidManifest.xml">
             <uses-permission android:name="android.permission.INTERNET" />
             <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
             <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
@@ -18,7 +18,7 @@
         <config-file target="app/src/main/AndroidManifest.xml" parent="/manifest/application">
             <activity android:name="xyz.guutong.androidpdfviewer.PdfViewActivity" android:theme="@style/AppTheme"/>
         </config-file>
-        <source-file src="src/android/pdfviewer-library.aar" target-dir="libs"/>
+        <lib-file src="src/android/pdfviewer-library.aar"/>
         <framework src="src/android/AndroidNativePDFViewer.gradle" custom="true" type="gradleReference" />
     </platform>
 </plugin>
