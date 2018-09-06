@@ -20,7 +20,7 @@
         </config-file>
         <lib-file src="src/android/pdfviewer-library.aar"/>
         <framework src="src/android/AndroidNativePDFViewer.gradle" custom="true" type="gradleReference" />
-        <framework src="com.android.support:design:25.1.0"/>
-        <framework src="com.android.support:appcompat-v7:25.1.0"/>
+        <framework src="com.android.support:design:27.+"/>
+        <framework src="com.android.support:appcompat-v7:27.+"/>
     </platform>
 </plugin>
