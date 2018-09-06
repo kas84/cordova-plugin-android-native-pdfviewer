@@ -2,6 +2,7 @@ android {
     defaultConfig {
         minSdkVersion 15
         targetSdkVersion 25
+        multiDexEnabled true
     }
 
    packagingOptions {
